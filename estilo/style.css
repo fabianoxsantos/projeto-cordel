@@ -58,15 +58,34 @@ header > p {
      font-weight: 100;
      font-size: 3vw;
      
+ }
 
+ section#img1{
+     background-image: url('../imagens/background001.jpg');
+     background-position: bottom center;
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+
+ section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+ section p {
+     padding-bottom: 2em;
  }
  section.normal{
      background-color: var(--cor02)
  }
 
  section.imagem p{
-     background-color: rgba(0, 0, 0, 0.178);
-     color: white; 
+     color: black; 
      display: inline-block;
      padding: 10px;
 }
